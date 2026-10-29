@@ -64,5 +64,134 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-EarningsCall is a company surfaced via the API Evangelist harvest backlog (source: g2-catalog) and added to the network as a stub for full-pipeline profiling.
-- https://earningscall.biz/
+EarningsCall provides a comprehensive API delivering real-time earnings call transcripts, audio, slide decks, and event data for over 9,000 public companies. Their platform aggregates clean JSON data, enabling developers to integrate earnings information into applications, models, and analytics. Features include searchable calendars, AI chat assistance, and multi‑platform mobile apps, all accessible via a straightforward REST API with generous rate limits and transparent pricing.
+
+**Areas:** Company · Finance · Data · Earnings
+
+## EarningsCall on APIs.io
+
+Everything profiled for EarningsCall is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/earningscall/](https://apis.io/providers/earningscall/)** — or go straight to one of the APIs or properties below.
+
+### APIs (8)
+
+- [EarningsCall API](https://apis.io/apis/earningscall/earningscall-api-2/) — Provides earnings call transcripts, audio, slide decks, and event data.
+- [EarningsCall Audio API](https://apis.io/apis/earningscall/earningscall-audio-api/) — The Audio API from EarningsCall — 1 operation(s) for audio.
+- [EarningsCall Calendar API](https://apis.io/apis/earningscall/earningscall-calendar-api/) — The Calendar API from EarningsCall — 1 operation(s) for calendar.
+- [EarningsCall Events API](https://apis.io/apis/earningscall/earningscall-events-api/) — The Events API from EarningsCall — 2 operation(s) for events.
+- [EarningsCall Live API](https://apis.io/apis/earningscall/earningscall-live-api/) — The Live API from EarningsCall — 1 operation(s) for live.
+- [EarningsCall Slides API](https://apis.io/apis/earningscall/earningscall-slides-api/) — The Slides API from EarningsCall — 1 operation(s) for slides.
+- [EarningsCall Symbols API](https://apis.io/apis/earningscall/earningscall-symbols-api/) — The Symbols API from EarningsCall — 1 operation(s) for symbols.
+- [EarningsCall Transcript API](https://apis.io/apis/earningscall/earningscall-transcript-api/) — The Transcript API from EarningsCall — 1 operation(s) for transcript.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Earningscall Webhooks](https://apis.io/asyncapis/earningscall/earningscall-webhooks/)
+
+#### JSON Schema (3)
+
+The data models the API reads and writes.
+
+- [GetLiveResponse](https://apis.io/schemas/earningscall/earningscall-get-live-response/)
+- [GetSymbolsResponse](https://apis.io/schemas/earningscall/earningscall-get-symbols-response/)
+- [GetV4EventsResponse](https://apis.io/schemas/earningscall/earningscall-get-v4-events-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Earningscall Context](https://apis.io/jsonld/earningscall/earningscall-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [EarningsCall API Rules](https://apis.io/rules/earningscall/earningscall-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Earningscall Authentication](https://apis.io/security/earningscall/earningscall-authentication/)
+- [Earningscall Domain Security](https://apis.io/security/earningscall/earningscall-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Earningscall Plans Pricing](https://apis.io/plans/earningscall/earningscall-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://earningscall.biz/)
+- [Documentation](https://earningscall.biz/docs)
+- [Getting started](https://earningscall.biz/about)
+- [API reference](https://earningscall.biz/api-details)
+- [Pricing](https://earningscall.biz/api-pricing)
+- [Support](https://earningscall.biz/contact-us)
+- [Blog](https://earningscall.biz/blog)
+- [Terms of service](https://earningscall.biz/terms)
+- [Privacy policy](https://earningscall.biz/privacy)
+- [GitHub](https://github.com/EarningsCall)
+
+## API Evangelist rating
+
+**Kin Score 47.3** — developing · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 60.7 |
+| Contract quality | 29.4 |
+| Contract governance | 22.0 |
+| Operational transparency | 13.2 |
+| Developer ergonomics | 64.3 |
+| Access clarity | 76.3 |
+
+**Agent readiness 41.1** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | na |
+| MCP Server | — |
+| Auth Clarity | served (partial credit) |
+| Idempotency | na |
+| Error Semantics | — |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | yes |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | na |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/earningscall/](https://apis.io/providers/earningscall/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for EarningsCall: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/earningscall/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
